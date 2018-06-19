@@ -37,6 +37,7 @@ public void ContactMove() throws InterruptedException
 	loginPageT.moveToObject();
 }
 
+//closing the browser in after method
 @AfterMethod()
 public void teardown()
 	{
